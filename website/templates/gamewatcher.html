@@ -1,0 +1,24 @@
+{% extends "base.html"%}
+{% block title %}Game Watcher{% endblock %}
+
+{% block content %}
+<br/>
+<h3 align = "center">Lives Games</h3>
+<div class = "games"></div>
+<script src = "static/games.js"></script>
+<style>
+.away {
+    display: inline-block;
+    width: 1000px;
+}
+.home {
+    display: inline-block;
+    width: 1000px;
+}
+.sets {
+    vertical-align: middle;
+}
+
+</style>
+
+{%endblock%}
