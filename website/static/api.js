@@ -6,7 +6,7 @@ function getPlayer() {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '477849f7a8msha5c092d98a08c65p10de27jsna11d9cc5effc',
+            'X-RapidAPI-Key': '#add your api key here',
             'X-RapidAPI-Host': 'ultimate-tennis1.p.rapidapi.com'
         }
     };
