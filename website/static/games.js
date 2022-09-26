@@ -92,15 +92,16 @@ fetch('https://ultimate-tennis1.p.rapidapi.com/live_scores', options)
 
             if (tournament.includes("US Open") || tournament.includes("Australia")
             || tournament.includes("Wimbledon") || tournament.includes("Rolland")) {
-                const game = 
+                const game =
                 `<div class = "match">
-                <div>${tournament}</div>
-                <div>${round}</div>
-                <div>${awayplayer}</div>
-                <div>${homeplayer}</div>
-                </div>
-                </br>
-                </br>`
+                	<div>${tournament}</div>
+                	<div>${round}</div>
+                	<div class = "away">${awayplayer}</div> <div class = "away"><h3 class = "sets">${awaySetOne} ${awaySetTwo} ${awaySetThree} ${awaySetFour} ${awaySetFive}| ${awayScore}</h3></div>
+                	</br>
+                	<div class = "home">${homeplayer}</div> <div class = "home"><h3 class = "sets">${homeSetOne} ${homeSetTwo} ${homeSetThree} ${homeSetFour} ${homeSetFive} | ${homeScore}</h3></div>
+            	</div>
+            	</br>
+            	</br>`
                 
             }
                 
