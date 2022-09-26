@@ -104,8 +104,6 @@ fetch('https://ultimate-tennis1.p.rapidapi.com/live_scores', options)
             	</br>`
                 
             }
-                
-            
             
             document.querySelector('.games').innerHTML += game
         })
